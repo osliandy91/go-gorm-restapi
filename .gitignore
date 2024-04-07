@@ -1,0 +1,38 @@
+# Archivos binarios y ejecutables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Directorios de construcción y compilación
+/bin/
+/pkg/
+/vendor/
+
+# Archivos de configuración de Go
+go.sum
+go.mod
+
+# Archivos de depuración y perfilado
+/debug
+/profile
+
+# Archivos de sistema operativo y editor
+.DS_Store
+.vscode/
+.idea/
+
+# Archivos de registro y salida
+*.log
+
+# Archivos temporales y compilados
+*.out
+*.test
+
+# Documentación generada
+/doc/
+/docs/
+
+# Archivos de caché y archivos temporales generados
+/tmp/
+/cache/
